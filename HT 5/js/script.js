@@ -13,7 +13,6 @@
     }
 
     user1.name = 'Pete';
-    console.log(user1.name);
     // в данном случае все будет работать, поскольку действие ключевого слова const распостраняется на переменную,
     // а не на ее содержимое.
 
@@ -28,6 +27,3 @@
     for (let key in salaries) {
         sum += salaries[key];
     }
-
-    console.log(sum);
-
