@@ -1,13 +1,20 @@
     let date = prompt('Введите ваш год рождения');
-    if (date === null) alert('Жаль, что вы не захотели вводить свою дату рождения');
+    let city;
+    let sport;
 
-    let city = prompt('В каком городе вы живете?');
-    if (city === null) alert('Жаль, что вы не захотели ввести название своего города');
+    switch (date) {
+        case null:
+            alert('Жаль, что вы не захотели ввести возраст');
+            break;
+        default:
+            city = prompt('Введите ваш город');
+    }
 
-    let sport = prompt('Какой ваш любимый вид спорта?');
-    if (sport === null) alert('Жаль, что вы не захотели ввести название любимого вида спорта');
+    (city === null) ? alert('жаль') : sport = prompt('w');
 
-    let actualAge;
+    (sport === null) ? alert('Жаль, что вы не захотели ввести ваш спорт') : alert('Спасибо');
+
+   /* let actualAge;
     if (date === null) {
         actualAge = 'К сожалению нет никаких данных';
     } else {
@@ -53,4 +60,4 @@
         sportMaster = 'К сожалению нет никаких данных';
     }
 
-    alert(`Ваш возраст: ${actualAge} \n${actualPlace} \n${sportMaster}`);
+    alert(`Ваш возраст: ${actualAge} \n${actualPlace} \n${sportMaster}`);*/

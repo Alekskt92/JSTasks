@@ -7,19 +7,13 @@
 // Task 2
     let num = Number(prompt('Введите ваше числло'));
 
-    if (num % 2 === 0) {
-        alert(`Число ${num} четное`);
-    } else {
-        alert(`Число ${num} нечетное`);
-    }
+    (num % 2 === 0) ? alert(`Число ${num} четное`) : alert(`Число ${num} четное`);
 
 // Task 3
     let number = prompt('Введите ваше число');
     let numType;
 
-    if (number % 1 !== 0) {
-        alert('Это не целое число. Попробуйте еще раз');
-    }
+    (number % 1 !== 0) ? alert('Это не целое число. Попробуйте еще раз') : alert('Спасибо');
 
     if (number > 0 && number < 10) {
         numType = 'однозначное положительное';
