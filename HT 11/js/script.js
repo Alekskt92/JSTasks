@@ -1,14 +1,21 @@
-    let number = prompt('Введите ваше число');
+    let number = Number(prompt('Введите ваше число'));
 
-    for (;;) {
-         if (number % 2 === 0) {
-             console.log(false);
-         } else if (number % 3 === 0) {
-             console.log(false);
-         } else if (number % 5 === 0) {
-             console.log(false);
-         } else {
-             console.log(true);
-         }
-         break;
+    if (isNaN(number)) {
+        console.log(false);
+    } else if (number <= 1) {
+        console.log(false);
+    } else if (number === 2 || number === 3) {
+        console.log(true);
+    } else {
+        for (let i = 2; i < number; i++) {
+            if (number % i === 0) {
+                console.log(false);
+                break;
+            } else {
+                console.log(true);
+            }
+        }
     }
+
+
+
