@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9735e7ce-b169-4b45-bdad-bbf87d09bd89" name="Default Changelist" comment="" />
+    <list default="true" id="d527cbc2-5f73-4fef-9efd-354ed0dbd3ac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1uOuZX3tSO70mGtcfpdvao49syJ" />
+  <component name="ProjectId" id="1ucDVtO82o2plJvWrc69uyDLkgs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,33 +29,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HT 13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9735e7ce-b169-4b45-bdad-bbf87d09bd89" name="Default Changelist" comment="" />
-      <created>1624549012448</created>
+      <changelist id="d527cbc2-5f73-4fef-9efd-354ed0dbd3ac" name="Default Changelist" comment="" />
+      <created>1624956010428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624549012448</updated>
-      <workItem from="1624549013565" duration="245000" />
-      <workItem from="1624617108752" duration="24000" />
-      <workItem from="1624802161105" duration="3773000" />
-      <workItem from="1624820140070" duration="571000" />
-      <workItem from="1624869405509" duration="56000" />
+      <updated>1624956010428</updated>
+      <workItem from="1624956011682" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624869460032">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624869460032" />
   </component>
 </project>
