@@ -3,7 +3,7 @@
 
         if (array.length === 0) return 'Массив пустой';
 
-        for (let i = 0; i <= array.length; i++) {
+        for (let i = 0; i < array.length; i++) {
             if (array[i] >= 0) exampleArray.push(array[i]);
         }
 
