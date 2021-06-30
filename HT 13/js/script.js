@@ -1,12 +1,13 @@
-    function numDegree(num, degree = 1) {
+    function numDegree(num, degree) {
         if (isNaN(num) || isNaN(degree)) {
-            alert('Ваши данные неверные');
+            return 'Ваши данные неверные';
         } else {
-            let result = num ** degree;
-            alert(`Результат операции: ${result}`);
+           return num ** degree;
         }
     }
 
     let num = Number(prompt('Введите ваше число'));
     let degree = Number(prompt('Ввевите степень числа'));
-    numDegree(num, degree);
+
+    const result = numDegree(num, degree);
+    alert(`Результат операции: ${result}`);
