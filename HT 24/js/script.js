@@ -1,6 +1,6 @@
     function isPalindrome(num) {
         let numConverted = num.toString();
-        if (numConverted.length ===1) return true;
+        if (numConverted.length === 1) return true;
 
         for (let i = 0; i < numConverted.length / 2; i++) {
             if (numConverted[i] !== numConverted[numConverted.length - 1 - i]) {
@@ -10,11 +10,11 @@
         }
     }
 
-    function palindrome(num, step=0) {
+    function palindrome(num, step= 0) {
         num = num.toString();
         let answer = {};
 
-        if(isPalindrome(num)) {
+        if (isPalindrome(num)) {
             answer.result = num;
             answer.stepCount = step;
             return answer;
