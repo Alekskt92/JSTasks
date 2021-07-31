@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0beb023-6aa0-48a4-a851-6399086c1103" name="Default Changelist" comment="" />
+    <list default="true" id="1cd89175-4ca0-439b-80f9-cf7e8f45bb91" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1vLkNBEpJgwY6qwWWSNKfzwHZW4" />
+  <component name="ProjectId" id="1w26QVo3fjmkzd5RYklrIZVMp41" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,14 +36,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a0beb023-6aa0-48a4-a851-6399086c1103" name="Default Changelist" comment="" />
-      <created>1626348713930</created>
+      <changelist id="1cd89175-4ca0-439b-80f9-cf7e8f45bb91" name="Default Changelist" comment="" />
+      <created>1627644319047</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626348713930</updated>
-      <workItem from="1626348715351" duration="1096000" />
-      <workItem from="1626528811044" duration="150000" />
-      <workItem from="1626693287566" duration="27000" />
+      <updated>1627644319047</updated>
+      <workItem from="1627644320191" duration="921000" />
+      <workItem from="1627721704333" duration="823000" />
+      <workItem from="1627735497241" duration="32000" />
     </task>
     <servers />
   </component>
@@ -51,9 +51,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1626693313110">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1627735528030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626693313110" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627735528030" />
   </component>
 </project>
