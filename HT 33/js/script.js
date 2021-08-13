@@ -1,3 +1,4 @@
+'use strict';
 // Task 1
     function generateList(array) {
         let ul = document.createElement('ul');

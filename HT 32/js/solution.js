@@ -1,5 +1,7 @@
+'use strict';
 // Task 1
     function getAttribute() {
+        let elem;
         let ul = document.getElementsByTagName("ul").item(0);
         let attributesValues = [];
         let attributesNames = [];
