@@ -3,9 +3,7 @@
     const data = JSON.parse(localStorage.getItem('data'));
 
     (() => {
-        if (!data) {
-            alert('К сожаленю сохраненных данных нет, введите новые данные');
-        }
+        if (!data) alert('К сожаленю сохраненных данных нет, введите новые данные');
 
         for (let key in data) {
             const ul = document.createElement('ul');
