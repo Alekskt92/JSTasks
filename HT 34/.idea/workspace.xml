@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +43,9 @@
       <updated>1628860283298</updated>
       <workItem from="1628860284392" duration="735000" />
       <workItem from="1628861126449" duration="649000" />
+      <workItem from="1629366683677" duration="2509000" />
+      <workItem from="1630333547955" duration="11000" />
+      <workItem from="1630426262921" duration="1690000" />
     </task>
     <servers />
   </component>
@@ -50,9 +53,13 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1628861007691">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1630333557343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1628861007691" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1630333557343" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630426658811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630426658811" />
   </component>
 </project>
