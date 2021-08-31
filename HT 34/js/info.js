@@ -4,10 +4,7 @@
 
     (() => {
         if (!data) {
-            let message = document.createElement('h1');
-            message.innerHTML = 'Сохраненные данные отсутствуют, введите ,пожалуйста, новые данные!';
-            document.body.append(message);
-            return;
+            alert('К сожаленю сохраненных данных нет, введите новые данные');
         }
 
         for (let key in data) {
