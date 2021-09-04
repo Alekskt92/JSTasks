@@ -2,7 +2,7 @@
 
     const data = JSON.parse(localStorage.getItem('data'));
 
-    (() => {
+    function createList() {
         if (!data) alert('К сожаленю сохраненных данных нет, введите новые данные');
 
         for (let key in data) {
@@ -12,4 +12,6 @@
             li.innerHTML = `${key} = ${data[key]}`;
             ul.append(li);
         }
-    })()
+    }
+
+    createList();

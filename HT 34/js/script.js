@@ -15,6 +15,7 @@
 
             console.log(data);
             saveInfo(data);
+            showInfo();
 
 
         })
@@ -23,6 +24,10 @@
     function saveInfo(localData) {
         let storage = JSON.stringify(localData);
         localStorage.setItem('data', storage);
+    }
+
+    function showInfo () {
+        window.location.href = 'info.html';
     }
 
     getData();
