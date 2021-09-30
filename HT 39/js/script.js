@@ -1,4 +1,4 @@
-    'use strict'
+    'use strict';
 
     let user = {
         data: {
@@ -18,13 +18,14 @@
         }
     }
 
+
     function deepFreeze(obj){
         const properties = Object.getOwnPropertyNames(obj);
 
         properties.forEach((item) => {
-            const fullAtributes = obj[item];
-            if(typeof fullAtributes === 'object' && fullAtributes !== null && !Array.isArray(fullAtributes)){
-                deepFreeze(fullAtributes);
+            const attributes = obj[item];
+            if(typeof attributes === 'object' && attributes !== null && !Array.isArray(attributes)){
+                deepFreeze(attributes);
             }
 
             return Object.freeze(obj);
