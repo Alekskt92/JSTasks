@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/app1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/second-app" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,6 +43,8 @@
       <updated>1631787594093</updated>
       <workItem from="1631787595279" duration="1186000" />
       <workItem from="1631986402632" duration="14000" />
+      <workItem from="1632218889105" duration="560000" />
+      <workItem from="1632221320646" duration="20000" />
     </task>
     <servers />
   </component>
@@ -50,9 +52,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1631986414789">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1632221338901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631986414789" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1632221338901" />
   </component>
 </project>
