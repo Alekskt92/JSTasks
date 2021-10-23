@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HT 39" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632214430902</updated>
       <workItem from="1632214431997" duration="4416000" />
+      <workItem from="1634981749279" duration="712000" />
     </task>
     <servers />
   </component>

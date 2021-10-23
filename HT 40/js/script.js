@@ -1,63 +1,62 @@
-    'use strict'
+    'use strict';
 
-    class Student {
-        constructor(name, lastName, birthYear) {
-            this.name = name;
-            this.lastName = lastName;
-            this.birthYear = birthYear;
-        }
-
-        presenceList = [];
-        markList = [];
-        avgMark = 0;
-        avgPresence = 0;
-
-        get age() {
-            let trueAge = 2021 - this.birthYear;
-            alert(`Студенту ${this.name} ${this.lastName} ${trueAge} лет`);
-        }
-
-        get averageMark() {
-            let sum = 0;
-
-            for (let i = 0; i < this.markList.length; i++) {
-                 sum += this.markList[i];
-            }
-
-            this.avgMark = sum / 10;
-            alert(`Средний балл студента ${this.name} ${this.lastName}: ${this.avgMark}`);
-        }
-
-        get averagePresence() {
-            let count = 0;
-
-            for (let i = 0; i < this.presenceList.length; i++) {
-                if (this.presenceList[i] === true) count++;
-            }
-
-            this.avgPresence = count / 10;
-            alert(`Средняя посещаемость студента ${this.name} ${this.lastName}: ${this.avgPresence}`);
-        }
-
-        present() {
-            if (this.presenceList.length !== 10) this.presenceList.push(true);
-        }
-
-        absent() {
-            if (this.presenceList.length !== 10) this.presenceList.push(false);
-        }
-
-        mark(value) {
-            if (this.markList.length !== 10 && value <= 10) this.markList.push(value);
-        }
-
-        get summary() {
-            if (this.avgMark > 9 && this.avgPresence > 0.9) return 'Вы молодец!';
-            if (this.avgMark < 9 && this.avgPresence < 0.9) return 'Редиска!';
-            return 'Хорошо, но можно лучше';
-        }
+    function Student(name, lastName, birthYear) {
+        this.name = name;
+        this.lastName = lastName;
+        this.birthYear = birthYear;
+        this.presenceList = [];
+        this.markList = [];
+        this.avgMark = 0;
+        this.avgPresence = 0;
     }
-// User 1
+
+    Student.prototype.age = function () {
+        let trueAge = 2021 - this.birthYear;
+        alert(`Студенту ${this.name} ${this.lastName} ${trueAge} лет`);
+    }
+
+    Student.prototype.averageMark = function () {
+        let sum = 0;
+
+        for (let i = 0; i < this.markList.length; i++) {
+            sum += this.markList[i];
+        }
+
+        this.avgMark = sum / 10;
+        alert(`Средний балл студента ${this.name} ${this.lastName}: ${this.avgMark}`);
+    }
+
+    Student.prototype.averagePresence = function () {
+        let count = 0;
+
+        for (let i = 0; i < this.presenceList.length; i++) {
+            if (this.presenceList[i] === true) count++;
+        }
+
+        this.avgPresence = count / 10;
+        alert(`Средняя посещаемость студента ${this.name} ${this.lastName}: ${this.avgPresence}`);
+    }
+
+    Student.prototype.present = function () {
+        if (this.presenceList.length !== 10) this.presenceList.push(true);
+    }
+
+    Student.prototype.absent = function () {
+        if (this.presenceList.length !== 10) this.presenceList.push(false);
+    }
+
+    Student.prototype.mark = function (value) {
+        if (this.markList.length !== 10 && value <= 10) this.markList.push(value);
+    }
+
+    Student.prototype.summary = function () {
+        if (this.avgMark > 9 && this.avgPresence > 0.9) return 'Вы молодец!';
+        if (this.avgMark < 9 && this.avgPresence < 0.9) return 'Редиска!';
+        return 'Хорошо, но можно лучше';
+    }
+
+    /*console.log(Student.prototype);*/
+
     let user = new Student('Alex', 'Kutuyev', 2002);
     user.present();
     user.present();
@@ -71,7 +70,7 @@
     user.present();
     user.present();
 
-    user.age;
+    user.age();
 
     user.mark(5);
     user.mark(6);
@@ -89,13 +88,13 @@
 
     console.log(user.presenceList);
     console.log(user.markList);
-    user.averageMark;
+    user.averageMark();
     console.log(user.avgMark);
-    user.averagePresence;
+    user.averagePresence();
     console.log(user.avgPresence);
-    console.log(user.summary);
+    alert(user.summary());
 
-// User 2
+    // User 2
     let studentTest = new Student('Vlad', 'Ivanov', 2001);
     studentTest.absent();
     studentTest.present();
@@ -109,7 +108,7 @@
     studentTest.present();
     studentTest.present();
 
-    studentTest.age;
+    studentTest.age();
 
     studentTest.mark(5);
     studentTest.mark(6);
@@ -127,8 +126,8 @@
 
     console.log(studentTest.presenceList);
     console.log(studentTest.markList);
-    studentTest.averageMark;
+    studentTest.averageMark();
     console.log(studentTest.avgMark);
-    studentTest.averagePresence;
+    studentTest.averagePresence();
     console.log(studentTest.avgPresence);
-    console.log(studentTest.summary);
+    alert(studentTest.summary());
